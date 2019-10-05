@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Ex4 - Cálculo de Expressões</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+
+    <!-- Favicon.ico placeholder -->
+    <link rel="shortcut icon" href="ink/img/ink-favicon.ico">
+
+    <!-- Apple icon placeholder -->
+    <link rel="apple-touch-icon-precomposed" href="ink/img/touch-icon.57.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ink/img/touch-icon.72.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ink/img/touch-icon.114.png">
+
+    <!-- Apple splash screen placeholder -->
+    <link rel="apple-touch-startup-image" href="ink/img/splash.320x460.png"
+          media="screen and (min-device-width: 200px) and (max-device-width: 320px) and (orientation:portrait)">
+    <link rel="apple-touch-startup-image" href="ink/img/splash.768x1004.png"
+          media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)">
+    <link rel="apple-touch-startup-image" href="ink/img/splash.1024x748.png"
+          media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape)">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="ink/css/ink.css">
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <!--[if IE 7 ]>
+    <link rel="stylesheet" href="ink/css/ink-ie7.css" type="text/css" media="screen" title="no title"
+          charset="utf-8">
+    <![endif]-->
+
+    <!-- Javascripts -->
+    <script type="text/javascript" src="ink/js/holder.js"></script>
+    <script type="text/javascript" src="ink/js/ink.min.js"></script>
+    <script type="text/javascript" src="ink/js/ink-ui.min.js"></script>
+    <script type="text/javascript" src="ink/js/autoload.js"></script>
+    <script type="text/javascript" src="ink/js/ink.modal.js"></script>
+    <script type="text/javascript" src="ink/js/html5shiv.js"></script>
+    <script type="text/javascript" src="js/ex4.js"></script>
+
+
+</head>
+<body>
+
+<!-- Add your site or application content here -->
+
+<div class="ink-grid">
+
+    <header class="vspace">
+        <h1 class="">Ex4 - Cálculo de Expressões </h1>
+
+        <p>Determina o resultado da expressão!</p>
+    </header>
+
+
+    <div class="vspace">
+
+        <div id="entrada">
+            <div id="certas">Respostas certas: 0</div>
+
+            <div id="erradas">Respostas erradas: 0</div>
+
+            <p>
+                <input id="btn_jogar" name="btn_jogar" type="button" value="Jogar" align="middle" onclick="jogar()"/>
+            </p>
+        </div>
+        <div id="jogo" style="display: none">
+            <div id="expressao"></div>
+            <input name="resultado" type="text" id="resultado" size="2"/><br/>
+            <input id="btn_verificar" name="btn_verificar" type="button" value="Verificar" onclick="verificar()"/>
+        </div>
+
+
+    </div>
+
+
+</div>
+
+<footer>
+    <div class="ink-grid">
+        <p class="small vspace">
+            O gerador automático deve gerar expressões aritméticas com dois
+            operadores, de entre os operadores de soma e subtração, e três operandos, por exemplo 3-10+4 ou 5+3+6.<br/>
+            As operações só podem ser realizadas com números inteiros entre 0 e 9.
+            <br/><br/>
+            Neste gerador o utilizador tem de clicar no botão Jogar, introduzir a resposta que entender à
+            expressão gerada e clicar no botão Verificar. Como resposta saberá se a sua resposta está correcta ou
+            errada.
+            <br/><br/>
+            O Utilizador, no início de cada jogo (após cada jogada), sabe o número de respostas certas e número
+            de respostas erradas que deu até ao momento (perde-se com o refresh da página).
+
+        </p>
+    </div>
+</footer>
+
+</body>
+</html>

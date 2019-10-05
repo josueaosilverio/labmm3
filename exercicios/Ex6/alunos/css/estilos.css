@@ -1,0 +1,62 @@
+@import url(http://fonts.googleapis.com/css?family=Audiowide);
+
+body {
+    background-color: #666666;
+}
+
+#main {
+    background-image: url("../img/slot_machine.png");
+    width: 406px;
+    height: 407px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+#slots {
+    position: absolute;
+    top: 153px;
+    left: 60px;
+
+}
+
+#slots img {
+    padding-right: 20px;
+}
+
+#btn_jogar {
+    position: absolute;
+    top: 345px;
+    left: 300px;
+}
+
+#btn_jogarAgain {
+    position: absolute;
+    top: 345px;
+    left: 200px;
+}
+
+#btn_jogar:hover, #btn_jogarAgain:hover {
+    cursor: pointer;
+}
+
+#valor, #valorGanho {
+    position: absolute;
+    color: #ff8c00;
+    font-size: 30px;
+    font-family: 'Audiowide', cursive;
+    text-align: right;
+}
+
+#valor {
+    top: 250px;
+    left: 55px;
+
+}
+
+#valorGanho {
+    top: 250px;
+    left: 245px;
+
+}

@@ -1,0 +1,27 @@
+body {
+    background-image: url("imagens/scenario.png");
+}
+
+#homer {
+    position: absolute;
+    top: 140px;
+    left: 50px;
+}
+
+#buraco0 {
+    position: absolute;
+    top: 195px;
+    left: 50px;
+}
+
+#buraco1 {
+    position: absolute;
+    top: 195px;
+    left: 50px;
+}
+
+#buraco2 {
+    position: absolute;
+    top: 195px;
+    left: 50px;
+}

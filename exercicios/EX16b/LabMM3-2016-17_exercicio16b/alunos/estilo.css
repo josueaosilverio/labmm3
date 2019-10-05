@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+    font-family: "Courier New";
+    color: #99FF66;
+    background-color: #000;
+}
+
+#ecraInicioJogo{
+    background-color: #000000;
+    text-align: center;
+
+}
+
+#ecraInicioJogo h1{
+    font-size: 4em;
+}
+
+.bigBtn{
+    width: 200px;
+    border: #5F4ED0 outset 2px;
+    background-color: #8a2be2;
+    margin: auto;
+    cursor: pointer;
+}
+
+#ecraInicioJogo #footer{
+    margin: 200px 0;
+}
+
+#ecraJogo, #parallax {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+    overflow: hidden;
+    /*background-image: url(imagens/space_field.jpg);
+    background-repeat: repeat-x repeat-y;*/
+}
+
+
+#ecraJogo #marcador{
+    float: right;
+    width: 160px;
+    border: #99FF66 dotted 1px;
+    text-align: right;
+    padding: 5px;
+}
+
+#fimJogo{
+    margin: 150px auto;
+    padding: 50px;
+    background-color: #AB9E50;
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    z-index: 999;
+}
+
+
+#ecraJogo, #tempo{
+    font-size: 1.5em;
+
+}
+
+#ecraJogo img{
+    position: absolute;
+    z-index: 666;
+}
+
+#star-field1, #star-field2, #star-field3 {
+    position: absolute;
+    background-image: url(imagens/starfield2.png);
+    background-repeat: repeat-y repeat-x;
+    background-color: transparent;
+    top:0;
+    left: -100px;
+    height: 100%;
+    width: 1400px;
+    z-index: 0;
+}
+
+#star-field2 {
+    background-size: 400px;
+}
+#star-field3 {
+    background-size: 200px;
+}
+
+
+

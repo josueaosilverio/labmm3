@@ -1,0 +1,18 @@
+.block-item {
+    margin-bottom: 30px;
+}
+
+.msg-area{
+    height: 15px;
+}
+
+.field-item {
+    margin-bottom: 4px;
+}
+
+.img{
+    color: #ffffff;
+    background-image: url(../header.png);
+    height: 120px;
+    padding: 5px 15px;
+}

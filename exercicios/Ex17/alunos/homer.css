@@ -1,0 +1,30 @@
+#animacao {
+    width: 100%;
+    height: 255px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("imagens/scenario.png");
+    background-repeat: repeat-x;
+}
+
+#homer {
+    position: absolute;
+    top: 140px;
+}
+
+#selma {
+    position: absolute;
+    top: 146px;
+}
+
+#buraco {
+    position: absolute;
+    top: 195px;
+}
+
+#caixa {
+    position: absolute;
+    top: 100px;
+    left: 170px
+}

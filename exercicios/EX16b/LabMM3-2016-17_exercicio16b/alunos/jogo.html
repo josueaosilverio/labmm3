@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LAB3 - Space Colector</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="estilo.css" rel="stylesheet" type="text/css" media="screen"/>
+
+</head>
+
+<body>
+    <div id='parallax'>
+        <div id='star-field1'></div>
+        <div id='star-field2'></div>
+        <div id='star-field3'></div>
+    </div>
+
+<div id="ecraJogo">
+    <img id="nave" src="imagens/nave.png" alt="nave"/>
+
+    <div id="marcador">
+        <div id="tempo">
+            Tempo: <span id="tempoSpan"></span>
+        </div>
+        <div id="casco">
+            Casco: <span id="cascoSpan"></span>
+        </div>
+        <div id="naves">
+            Naves: <span id="navesSpan"></span>
+        </div>
+    </div>
+
+    <img id="inimiga1" src="imagens/inimiga1.png" alt="inimiga1"/>
+    <img id="inimiga2" src="imagens/inimiga2.png" alt="inimiga2"/>
+    <img id="inimiga3" src="imagens/inimiga3.png" alt="inimiga3"/>
+    <img id="tiro" src="imagens/tiro.png" alt="tiro"/>
+
+    <div id="fimJogo">
+        <h1>Pontuação: <span id="pontuacaoSpan"></span></h1>
+
+        <h1 class="bigBtn" onclick="self.close();">sair</h1>
+    </div>
+</div>
+<script type="text/javascript" src="jogo.js" language="JavaScript"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+body, img {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+#animacao {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#animacao div, #jogar {
+    position: absolute;
+    top: 100px;
+}
+
+#jogar {
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 710px;
+}
+
+#content{
+    margin-top: 0;
+}
+
+#teclapressionada {
+    display: none;
+}
+
+.errado {
+    color: red;
+}
+
+.correcto {
+    color: green;
+}

@@ -1,0 +1,25 @@
+body{
+	margin:0;
+	background-color: #000000;
+	position: absolute;
+	color: #FFFFFF;
+}
+
+#tiles{
+	position: absolute;
+	left:20px;
+	top:70px;
+}
+
+#player{
+	position: absolute;
+}
+
+#score{
+	position: absolute;
+	left: 600px;
+	width: 200px;
+}
+#diamantes{
+	width: 25px;
+}

@@ -1,0 +1,27 @@
+body {
+	background-color: #78B73B;
+}
+
+#divInicio h3 {
+	font-size: 30px;
+	font-family: 'Asset', cursive;
+}
+
+#valor {
+	background-color: #FFF;
+	width: 170px;
+	font-size: 14px;
+	text-align: left;
+	font-family: arial, sans-serif;
+}
+
+#toupeira {
+	position: absolute;
+	cursor: pointer;
+	z-index: 1;
+}
+
+#btnJogar {
+	margin-top: 10px;
+	cursor: pointer;
+}

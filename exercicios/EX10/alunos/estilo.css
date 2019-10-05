@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #DDDDDD;
+	font-family: Arial;
+}
+
+
+.rbroundbox {
+	width: 400px;
+	margin: 10% auto;
+    padding: 20px;
+    background-color: #78B73B;
+    border-radius: 40px;
+    border: double black 7px;
+}
+span{
+    font-weight: bold;
+}
+#divAjuda {
+	background-color: #A6B8A3;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	height: 100%;
+	width: 100%;
+
+	/* Required for IE 5, 6, 7 */
+	/* ...or something to trigger hasLayout, like zoom: 1; */
+
+	/* http://css-tricks.com/64-css-transparency-settings-for-all-broswers/ */
+	/* Theoretically for IE 8 & 9 (more valid) */
+	/* ...but not required as filter works too */
+	/* should come BEFORE filter */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=95)";
+
+	/* This works in IE 8 & 9 too */
+	/* ... but also 5, 6, 7 */
+	filter: alpha(opacity = 95);
+
+	/* Older than Firefox 0.9 */
+	-moz-opacity: 0.95;
+
+	/* Safari 1.x (pre WebKit!) */
+	-khtml-opacity: 0.95;
+	/* Modern!
+				/* Firefox 0.9+, Safari 2?, Chrome any?
+				/* Opera 9+, IE 9+ */
+	opacity: 0.95;
+}
+
+#main img {
+	position: absolute;
+}
+
+#main p{
+	position: absolute;
+	font-weight: bold;
+	left: 47%;
+	top: 33%;
+	font-size: 60px;
+	color: green;
+    opacity: 0.5;
+}
+
+.score{
+    position: absolute;
+    right: 0px;
+    top: 10%;
+    width: 100px;
+    height: 150px;;
+    margin: 10% auto;
+    padding: 20px;
+    background-color: #78B73B;
+    border-radius: 40px 0px 0px 40px;
+    border: double black 7px;
+}
+.numscore{
+    font-size: 50px;
+}
